@@ -6,5 +6,5 @@ sudo docker run -d \
   --net="host" \
   --pid="host" \
   -v "/:/host:ro,rslave" \
-  maayalee/node-exporter:latest \
+  maayalee/node_exporter:latest \
   --path.rootfs=/host  
